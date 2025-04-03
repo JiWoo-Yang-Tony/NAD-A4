@@ -1,2 +1,8 @@
 dj_ajax활성화: dj_ajax\Scripts\activate
 서버 실행: python manage.py runserver
+
+testuser
+test72010464
+
+testuser2
+test272010464
