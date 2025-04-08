@@ -26,7 +26,7 @@ const likeUnlikePosts = () => {
     likeUnlikeForms.forEach(form=> form.addEventListener('submit', e=> {
         e.preventDefault()
         const clickedId = e.target.getAttribute('data-form-id')
-        const clickedBtn = document.getElementById(`like-unlike-btn-${clickedId}`)
+        const clickedBtn = document.getElementById(`like-unlike-${clickedId}`)
 
         $.ajax({
             type: 'POST',
